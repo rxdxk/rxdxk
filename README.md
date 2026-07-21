@@ -106,6 +106,4 @@ $ cat contact.txt
 
 <div align="center">
 
-![Footer](https://capsule-render.vercel.app/api?type=waving&color=0:2b2b2b,50:1a1a1a,100:000000&height=120&section=footer)
-
 </div>
