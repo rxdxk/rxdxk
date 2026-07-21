@@ -100,8 +100,6 @@ class Rxdxk:
 <img src="https://raw.githubusercontent.com/rxdxk/rxdxk/output/github-contribution-grid-snake-dark.svg" width="100%" />
 </div>
 
-<sub>анимация "змейки", ползающей по графику коммитов — подключается через GitHub Action `Platane/snk`, инструкция ниже</sub>
-
 <br>
 
 ## ░ TERMINAL
