@@ -1,0 +1,21 @@
+name: update activity feed
+
+on:
+  schedule:
+    - cron: "*/30 * * * *"   # обновление каждые 30 минут
+  workflow_dispatch: {}
+
+jobs:
+  build:
+    permissions:
+      contents: write
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: update activity section
+        uses: jamesgeorge007/github-activity-readme@master
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          MAX_LINES: 5
+          COMMIT_MSG: "chore: update activity feed [skip ci]"
