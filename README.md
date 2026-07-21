@@ -2,12 +2,11 @@
 
 ![Header](https://capsule-render.vercel.app/api?type=waving&color=0:000000,50:1a1a1a,100:2b2b2b&height=220&section=header&text=RXDXK&fontColor=FFFFFF&fontSize=70&fontAlignY=40&descAlignY=60&descSize=18&animation=fadeIn)
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=800&color=CFCFCF&center=true&vCenter=true&width=650&lines=whoami;.+%2F%2F+.+%2F%2F+.;rxdxk;cat+rxdxk/capabilities.txt;solana+%2F%2F+python+%2F%2F+automation;parsing+the+chain%2C+quietly;%5BACCESS+GRANTED%5D" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=800&color=CFCFCF&center=true&vCenter=true&width=650&lines=whoami;.+.+.;rxdxk;cat+rxdxk/capabilities.txt;.+.+.;solana+%2F%2F+python+%2F%2F+automation;python parser.py;%5BDATA+ACQUIRED%5D" alt="Typing SVG" />
 
 </div>
 
 <br>
-
 ```
 ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓
    > CONNECTING TO NODE...
@@ -16,7 +15,6 @@
    > STATUS: [ONLINE/ACTIVE]
 ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓
 ```
-
 <br>
 
 ## ░ ABOUT
