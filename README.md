@@ -24,8 +24,7 @@ class Rxdxk:
     def __init__(self):
         self.role      = "Python Developer"
         self.focus     = ["Solana", "Automation", "Parsing", "Data Analytics"]
-        self.palette   = "monochrome — black / gray / white only"
-        self.mode      = "ghost in the mempool"
+        self.mode      = "a rat in the mempool"
 
     def run(self):
         while True:
@@ -69,9 +68,6 @@ class Rxdxk:
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=rxdxk&show_icons=true&hide_border=true&title_color=ffffff&text_color=cfcfcf&icon_color=888888&bg_color=0d0d0d&hide_rank=true" width="48%" />
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=rxdxk&layout=compact&hide_border=true&title_color=ffffff&text_color=cfcfcf&bg_color=0d0d0d&langs_count=8" width="40%" />
-
 <img src="https://github-readme-streak-stats.herokuapp.com/?user=rxdxk&hide_border=true&background=0D0D0D&stroke=2b2b2b&ring=ffffff&fire=ffffff&currStreakLabel=ffffff&sideLabels=cfcfcf&dates=888888" width="60%" />
 
 </div>
@@ -86,8 +82,6 @@ class Rxdxk:
 
 <!--START_SECTION:activity-->
 <!--END_SECTION:activity-->
-
-<sub>обновляется автоматически через GitHub Action `jamesgeorge007/github-activity-readme` — подключение ниже</sub>
 
 <br>
 
@@ -106,9 +100,6 @@ $ cat contact.txt
 > telegram   : t.me/rxdxk
 > github     : github.com/rxdxk
 > status     : [ SIGNAL ACTIVE ]
-
-$ echo $MOTTO
-> "если данные существуют — их можно распарсить"
 ```
 
 <br>
