@@ -1,20 +1,33 @@
-- uses: isitreallyalive/snkgen@v3
-  with:
-    # github user name to read the contribution graph from (**required**)
-    # using action context var `github.repository_owner` or specified user
-    github_user_name: ${{ github.repository_owner }}
+name: generate snake animation
 
-    # list of files to generate.
-    # one file per line. each output can be customized with options as query string.
+on:
+  schedule:
+    - cron: "0 */6 * * *"   # обновление каждые 6 часов
+  workflow_dispatch: {}       # + ручной запуск кнопкой "Run workflow"
+  push:
+    branches:
+      - main
 
-    # supported options:
-    # - palette:        a preset of color, one of [github, github-dark, github-light]
-    # - color_snake:    color of the snake
-    # - color_dots:     comma separated list of dots color.
-    #                   the first one is 0 contribution, then it goes from the low contribution to the highest.
-    #                   exactly 5 colors are expected.
-    # - color_progress: color of the progress bar.
-    outputs: |
-      dist/github-snake.svg
-      dist/github-snake-dark.svg?palette=github-dark
-      dist/ocean.gif?color_snake=orange&color_dots=#bfd6f6,#8dbdff,#64a1f4,#4b91f1,#3c7dd9
+jobs:
+  build:
+    permissions:
+      contents: write
+    runs-on: ubuntu-latest
+    steps:
+      - name: generate github-contribution-grid-snake.svg
+        uses: Platane/snk@v3
+        id: snake-gif
+        with:
+          github_user_name: rxdxk
+          outputs: |
+            dist/github-contribution-grid-snake.svg
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+            dist/github-contribution-grid-snake.gif?color_snake=%23ffffff&color_dots=%230d0d0d,%23444444,%23888888,%23cccccc,%23ffffff
+
+      - name: push output to output branch
+        uses: crazy-max/ghaction-github-pages@v4
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
