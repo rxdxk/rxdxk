@@ -1,6 +1,6 @@
 <div align="center">
 
-![Header]([https://capsule-render.vercel.app/api?type=waving&color=0:000000,50:1a1a1a,100:2b2b2b&height=220&section=header&text=RXDXK&fontColor=FFFFFF&fontSize=70&fontAlignY=40&descAlignY=60&descSize=18&animation=fadeIn](https://capsule-render.vercel.app/api?type=waving&color=0:000000,50:1a1a1a,100:2b2b2b&height=200&section=header))
+![Header](https://capsule-render.vercel.app/api?type=waving&color=0:000000,50:1a1a1a,100:2b2b2b&height=200&section=header)
 ██████╗ ██╗  ██╗██████╗ ██╗  ██╗██╗  ██╗
 ██╔══██╗╚██╗██╔╝██╔══██╗╚██╗██╔╝██║ ██╔╝
 ██████╔╝ ╚███╔╝ ██║  ██║ ╚███╔╝ █████╔╝
