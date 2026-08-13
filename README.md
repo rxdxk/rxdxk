@@ -64,12 +64,6 @@ class Rxdxk:
 
 <br>
 
-## ░ SYSTEM STATS
-
-<div align="center">
-
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=rxdxk&hide_border=true&background=0D0D0D&stroke=2b2b2b&ring=ffffff&fire=ffffff&currStreakLabel=ffffff&sideLabels=cfcfcf&dates=888888" width="60%" />
-
 </div>
 
 <br>
