@@ -91,19 +91,6 @@ class Rxdxk:
 <img src="https://raw.githubusercontent.com/rxdxk/rxdxk/output/github-contribution-grid-snake-dark.svg" width="100%" />
 </div>
 
-<br>
-
-## ░ TERMINAL
-
-```bash
-$ cat contact.txt
-> telegram   : t.me/rxdxk
-> github     : github.com/rxdxk
-> status     : [ SIGNAL ACTIVE ]
-```
-
-<br>
-
 <div align="center">
 
 </div>
