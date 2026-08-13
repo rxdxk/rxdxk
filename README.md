@@ -66,19 +66,6 @@ class Rxdxk:
 
 </div>
 
-<br>
-
-## ░ ACTIVITY FEED
-
-```
-> tail -f /var/log/rxdxk/activity.log
-```
-
-<!--START_SECTION:activity-->
-<!--END_SECTION:activity-->
-
-<br>
-
 ## ░ CONTRIBUTION GRID
 
 <div align="center">
