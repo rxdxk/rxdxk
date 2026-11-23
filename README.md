@@ -87,6 +87,7 @@ class Rxdxk:
 | Project | What it does | Stack |
 |---|---|---|
 | **Pump.fun Trading Terminal** *(private, NDA)* | Token creation, live tx monitoring, automated buy/sell, batch ops across many wallets | Python · Solana RPC/WS · asyncio |
+| [**pumptracker**](https://github.com/rxdxk/pumptracker) | Real-time pump.fun dev & smart-money tracker: dev scoring, dump detection, live dashboard, browser / sound / Telegram alerts | Python · FastAPI · SSE · Solana RPC/WS |
 | [**mlnk_price_tracker**](https://github.com/rxdxk/mlnk_price_tracker) | Polls an on-chain DEX pool and pushes price changes to Telegram | Python · EOS RPC · Telegram API |
 | [**english-learning-tg-bot**](https://github.com/rxdxk/english-learning-tg-bot) | Telegram bot for learning English: lessons, tests, translator | aiogram 3 · SQLite · FSM |
 | [**Shaurma_tg_bot**](https://github.com/rxdxk/Shaurma_tg_bot) | Food-ordering bot: menu, basket, orders forwarded to staff chat | pyTelegramBotAPI · SQLite |
